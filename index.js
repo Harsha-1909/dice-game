@@ -15,7 +15,7 @@ function myFunction() {
     document.querySelector("h1").innerHTML = "Comp Wins!";
   else
     document.querySelector("h1").innerHTML = "Draw!";
-  var s = "images/dice";
+  var s = "dice";
   setimg(".img1", s, p1);
   setimg(".img2", s, p2);
 }
